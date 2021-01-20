@@ -46,6 +46,10 @@ variable "disk_size" {
   default = 40
 }
 
+variable "network_cidr" {
+  type = string
+}
+
 variable "ip" {
   type = string
 }
